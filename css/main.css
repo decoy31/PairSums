@@ -1,0 +1,14 @@
+* {
+    font-family: Calibri, Myriad, "Helvetica Neue", Arial, sans-serif;
+}
+body {
+    font-size: 1em;
+    color: #555555;
+}
+form > fieldset {
+    border: none;
+}
+
+.numbers, .solution {
+    overflow-wrap: break-word;
+}
