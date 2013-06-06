@@ -9,6 +9,6 @@ form > fieldset {
     border: none;
 }
 
-.numbers, .solution {
+.numberPool, .solution {
     overflow-wrap: break-word;
 }

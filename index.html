@@ -14,23 +14,27 @@
 <form>
     <fieldset>
         <label for="txtMin">Min:</label>
-        <input id="txtMin" type="text" autocomplete="false" required /><br/>
+        <input id="txtMin" type="text" required /><br/>
         <label for="txtMax">Max:</label>
-        <input id="txtMax" type="text" autocomplete="false" required /><br/>
+        <input id="txtMax" type="text" required /><br/>
         <label for="txtSize">Size:</label>
-        <input id="txtSize" type="text" autocomplete="false" required /><br/>
+        <input id="txtSize" type="text" required /><br/>
+        <input id="chkSorted" type="checkbox" checked />
+        <label for="chkSorted">Sorted</label><br/>
         <br/>
         <label for="txtSum">X (Sum):</label>
         <input id="txtSum" type="text" autocomplete="false" required /><br/>
-        <input id="btnSubmit" type="submit" value="Submit" title="Submit"/>
+        <input id="btnSubmit" type="submit" value="Submit" title="Submit" alt="Reset"/>
+        <input id="btnReset" type="reset" value="Reset" title="Reset" alt="Reset"/>
     </fieldset>
 </form>
-<h3>Solution</h3>
+<h3>Solution (<span class="solutionCount">0</span> Pairs Found in <span class="solutionTime">0</span>ms)</h3>
 <pre class="solution"></pre>
-<h3>Number Pool</h3>
-<pre class="numbers"></pre>
+<h3>Number Pool (<span class="numberPoolCount">0</span> Numbers Generated in <span class="numberPoolTime">0</span>ms)</h3>
+<pre class="numberPool"></pre>
 <script src="js/shims/json3.min.js"></script>
 <script src="js/jquery/jquery-2.0.2.min.js"></script>
+<script src="js/StopWatch.js"></script>
 <script src="js/RandomNumberGenerator.js"></script>
 <script src="js/PairSums.js"></script>
 <script src="js/app.js"></script>
