@@ -74,7 +74,7 @@ PairSums.prototype = {
 
         pairs.timeToComplete = watch.stop();
 
-        //console.log('findPairsSorted completed in ' + pairs.timeToComplete + 'ms');
+        //console.log('findPairsSorted completed in ' + pairs.timeToComplete.getMilliseconds() + 'ms');
 
         return pairs;
     }
