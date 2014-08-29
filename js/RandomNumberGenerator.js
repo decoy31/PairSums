@@ -35,7 +35,8 @@ RandomNumberGenerator.prototype = {
     generateMultiple: function (size) {
         var nums = [];
 
-        if (typeof size === 'number') {
+        // Test for an integer
+        if (size^0 === 0) {
             if (size > 0) {
                 for (var i = 1; i <= size; i++) {
                     nums.push(this.generate());
